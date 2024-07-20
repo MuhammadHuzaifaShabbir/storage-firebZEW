@@ -1,0 +1,51 @@
+#all img {
+    margin: 20px;
+    border: 3px black solid;
+    border-radius: 10px;
+    height: 200px !important;
+    width: 300px !important;
+}
+
+@media (max-width:570px) {
+    #all img {
+        width: 45vw !important;
+        height: 30vw !important;
+        margin: none !important;
+        padding-left: 2vw !important;
+        padding-right: 2vw !important;
+    }
+
+}
+
+@media (min-width:570px) {
+    #all img {
+        width: 32vw !important;
+        padding-left: 2vw !important;
+        padding-right: 2vw !important;
+    }
+}
+
+@media (min-width:857px) {
+    #all img {
+        width: 24vw !important;
+        height: 20vw !important;
+        padding-left: 2vw !important;
+        padding-right: 2vw !important;
+    }
+}
+
+button {
+    background-color: white;
+    color: red;
+    font-weight: bolder !important;
+}
+
+input {
+    background-color: white !important;
+    height: 10px !important
+}
+
+#all {
+    padding-left: 2vw !important;
+    padding-right: 2vw !important;
+}
